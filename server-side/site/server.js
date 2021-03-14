@@ -57,5 +57,7 @@ app.post('/api/study/admin/notify/', admin.notifyParticipant);
 
 
 var port = process.env.APP_PORT;
+console.log(port);
+console.log(process.env.APP_PORT);
 app.listen(port);
 console.log(`Listening on port ${port}...`);
